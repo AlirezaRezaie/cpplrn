@@ -3,10 +3,11 @@
 extern "C" {
   #include "header.h" //a C header, so wrap it in extern "C".
 }
-#include <print.h> // it's a cpp function so we can directly include it.
+#include "print.h" // it's a cpp function so we can directly include it.
 
 int main()
 {
+    int a = 2000000001;
     //to clear console
     std::cout << "\x1B[2J\x1B[H";
     int x;
