@@ -5,7 +5,8 @@ extern "C" {
 }
 #include <print.h> // it's a cpp function so we can directly include it.
 
-int main(){
+int main()
+{
     //to clear console
     std::cout << "\x1B[2J\x1B[H";
     int x;
